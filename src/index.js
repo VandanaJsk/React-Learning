@@ -14,6 +14,6 @@ import Bulb from './components/bulb/Bulb';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Bulb/>
+  <App/>
   
 );
