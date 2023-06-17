@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Counter from './components/counter/Counter';
+import Numbers from './components/numbers/Numbers';
+import Boxes from './components/boxes/Boxes';
+import Experiment from './components/experiment/Experiment';
+import ScoreGame from './components/scoreGame/ScoreGame';
+import BlueBorder from './components/blueBorder/BlueBorder';
+import Boxes2 from './components/boxes2/Boxes2';
+import TodoList from './components/todoList/TodoList'
+import Bulb from './components/bulb/Bulb';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Bulb/>
+  
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

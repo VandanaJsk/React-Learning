@@ -1,0 +1,19 @@
+.container2{
+    height: 320px;
+    width: 350px;
+    border: 2px solid grey;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 110px;
+}
+
+p{
+    display: inline;
+    
+}
+
+.item-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

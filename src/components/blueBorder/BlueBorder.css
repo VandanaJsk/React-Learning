@@ -1,0 +1,37 @@
+.main-container{
+    border: 2px solid grey;
+    margin: auto;
+    height: 380px;
+    width: 350px;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.items{
+    height: 60px;
+    width: 60px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px 20px;
+}
+
+.container1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(241, 241, 241);
+}
+

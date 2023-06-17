@@ -1,0 +1,21 @@
+.main-container{
+    height: 400px;
+    width: 365px;
+    border: 2px solid rgb(191, 241, 91);
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(253, 237, 3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}

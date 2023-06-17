@@ -1,0 +1,15 @@
+.btn1{
+    background-color: aqua;
+}
+
+.btn2{
+    background-color: pink;
+}
+
+.btn3{
+    background-color: yellow;
+}
+
+button{
+    cursor: pointer;
+}
