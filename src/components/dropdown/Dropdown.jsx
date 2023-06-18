@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import Bulb from './Bulb';
+import Bulb from '../bulb/Bulb';
+import './Dropdown.css'
 
 export default function Dropdown() {
     console.log('top walal')
@@ -50,7 +51,7 @@ export default function Dropdown() {
 
         <div name="drodown">
             {console.log('render')}
-            <button onClick={() => setShow(!show)}> Fruits ></button>
+            <button onClick={() => setShow(!show)}> Fruits </button>
             {show ? <div className="flex">
                 {
                     list.map((each, index) => {

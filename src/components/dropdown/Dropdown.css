@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60px;
+    border: 1px solid black;
+  }
+
+  .selected{
+    background-color: cyan!important;
+  }
+
+  .notselected{
+    background-color: white !important;;
+  }
+  
+  .flex button{
+    border-style: none;
+    background-color: white;
+  }
+  
+  .flex button:hover{
+    background-color: grey;
+  }
