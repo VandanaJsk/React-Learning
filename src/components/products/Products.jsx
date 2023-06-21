@@ -7,52 +7,53 @@ export default function Products(props) {
     const [products, setProducts] = useState([
         {
           id: 1,
-          name: "laptops1  ",
-          img: "https://images.unsplash.com/photo-1511385348-a52b4a160dc2",
+          name: "Laptops-1  ",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/f/g/c/-original-imagp7pfkztgtg93.jpeg?q=70",
         },
         {
           id: 2,
-          name: "laptops  2",
-          img: "https://images.unsplash.com/photo-1511385348-a52b4a160dc2",
+          name: "Laptops-2",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/f/g/c/-original-imagp7pfkztgtg93.jpeg?q=70",
         },
         {
           id: 3,
-          name: "laptops 4 ",
-          img: "https://images.unsplash.com/photo-1511385348-a52b4a160dc2",
+          name: "Laptops-3 ",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/f/g/c/-original-imagp7pfkztgtg93.jpeg?q=70",
         },
         {
           id: 4,
-          name: "laptops  13030",
-          img: "https://images.unsplash.com/photo-1511385348-a52b4a160dc2",
+          name: "Laptops-4",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/f/g/c/-original-imagp7pfkztgtg93.jpeg?q=70",
         },
       ]);
     
       const [grocery, setGrocery] = useState([
         {
           id: 1,
-          name: "pOtato",
-          img: "https://m.media-amazon.com/images/I/313dtY-LOEL.jpg",
+          name: "Potato-1",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/pasta/e/p/f/128-pazzta-cheesy-tomato-twist-64-grams-pack-of-2-64g-x-2-original-imaggd5faptrzfkf.jpeg?q=70",
         },
         {
           id: 2,
-          name: "pOtato",
-          img: "https://m.media-amazon.com/images/I/313dtY-LOEL.jpg",
+          name: "Potato-2",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/pasta/e/p/f/128-pazzta-cheesy-tomato-twist-64-grams-pack-of-2-64g-x-2-original-imaggd5faptrzfkf.jpeg?q=70",
         },
         {
           id: 3,
-          name: "pOtato",
-          img: "https://m.media-amazon.com/images/I/313dtY-LOEL.jpg",
+          name: "Potato-3",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/pasta/e/p/f/128-pazzta-cheesy-tomato-twist-64-grams-pack-of-2-64g-x-2-original-imaggd5faptrzfkf.jpeg?q=70",
         },
         {
           id: 4,
-          name: "pOtato",
-          img: "https://m.media-amazon.com/images/I/313dtY-LOEL.jpg",
+          name: "Potato-4",
+          img: "https://rukminim1.flixcart.com/image/416/416/xif0q/pasta/e/p/f/128-pazzta-cheesy-tomato-twist-64-grams-pack-of-2-64g-x-2-original-imaggd5faptrzfkf.jpeg?q=70",
         },
       ]);
     
       return (
-        <div>
-          Products:
+        <div className='products-wrapper'>
+          <h4>Products saved for later</h4>
+          <hr />
           {props.selected == "flipkart"
             ? products.map((each, index) => {
                 return <Product data={each} />;

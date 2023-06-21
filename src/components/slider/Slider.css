@@ -1,4 +1,29 @@
-.slider-wrapper .btn{
-    background-color: red;
-    color: limegreen;
+.slider-wrapper .selected{
+    background-color: #2874F0;
+    color: white;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 0;
+    padding: 0 30px;
+    border-radius: 2px;
+}
+
+.slider-wrapper .notselected{
+    background-color: white;
+    color: #2874F0;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 0;
+    padding: 0 30px;
+    border-radius: 2px;
+}
+
+.slider-wrapper{
+    width: 80%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
 }

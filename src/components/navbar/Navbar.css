@@ -1,0 +1,16 @@
+.navbar-wrapped h1{
+    display: inline;
+    color: white;
+    background-color: #2874F0;
+    margin-left: 200px;
+}
+
+.navbar-wrapped{
+    height: 62px;
+    width: 100%;
+    background-color: #2874F0;
+}
+
+.navbar-wrapped input{
+    border: 1px solid rgb(226, 226, 226);
+}

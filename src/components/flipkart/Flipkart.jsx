@@ -48,7 +48,7 @@ function handleButtonClick(index){
                 {
                     list.map((each, index) => {
                         return <button
-
+                        
                             className={`${each.isSelected ? "selected" : "notselected"}`}
 
                             onClick={() => {

@@ -1,4 +1,26 @@
-img{
+.product-wrapper img{
     width: 200px;
     height: auto;
+    background-color: white;
+}
+
+.product-wrapper{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background-color: white;
+}
+
+.product-wrapper p{
+    background-color: white;
+}
+
+.product-wrapper .img{
+    width: 30%;
+    display: inline;
+}
+
+.product-wrapper .p{
+    width: 70%;
+    display: inline;
 }

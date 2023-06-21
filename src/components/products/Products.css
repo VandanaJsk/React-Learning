@@ -1,0 +1,17 @@
+.products-wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.products-wrapper h4{
+background-color: #fff;
+padding-left: 30px;
+padding-top: 10px;
+color: grey;
+}
+
+.products-wrapper hr{
+    border: 1px solid rgb(231, 229, 229);
+}
