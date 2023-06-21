@@ -1,0 +1,12 @@
+.wrapper-prodcuts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper-prodcuts .each-product {
+    border: 1px solid red;
+    min-width: 48%;
+  }
+  .wrapper-prodcuts img {
+    width: 100px;
+    height: 100px;
+  }
