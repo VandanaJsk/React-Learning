@@ -1,0 +1,32 @@
+.newNavbar-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: pink;
+}
+
+.newNavbar-wrapper .logo{
+    color: white;
+}
+
+.newNavbar-wrapper .container{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.newNavbar-wrapper .btn{
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+    background-color: pink;
+    color: white;
+}
+
+.newNavbar-wrapper .btn a{
+    text-decoration: none;
+    color: white;
+}
+

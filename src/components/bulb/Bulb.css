@@ -11,11 +11,12 @@
     align-items: center;
 }
 
-.container{
+.main-container .container{
     width: 70px;
     height: 70px;
     border: 2px solid rgb(253, 237, 3);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 4px;
+    margin: 10px;
 }

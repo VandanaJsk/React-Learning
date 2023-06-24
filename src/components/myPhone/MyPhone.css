@@ -1,0 +1,23 @@
+.myphone-wrapper .main-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.myphone-wrapper .cards{
+    width: 400px;
+    height:430px;
+    border: 2px solid cyan;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.myphone-wrapper img{
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+}

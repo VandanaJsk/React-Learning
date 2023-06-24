@@ -1,0 +1,18 @@
+.aboutme-wrapper .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 180px;
+    border: 2px solid cyan;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.aboutme-wrapper .para{
+    font-size: 1.1rem;
+    color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
