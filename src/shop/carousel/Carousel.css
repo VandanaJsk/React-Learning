@@ -1,0 +1,32 @@
+.carausel-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.carausel-wrapper .carausel-btn {
+  border-style: none;
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+}
+.carausel-wrapper .carausel-all-img {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+}
+.carausel-wrapper .carausel-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.carausel-wrapper .carausel-img {
+  display: block;
+  width: 50%;
+  height: 300px;
+}
+
+.carausel-wrapper .notselected {
+  display: none;
+  width: 0;
+}
