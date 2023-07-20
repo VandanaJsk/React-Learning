@@ -11,7 +11,6 @@ import MyGame from './components/myGame/MyGame';
 function App() {
   return (
     <div>
-      {/* <NewNavbar/> */}
    <BrowserRouter> 
    <Routes>
    <Route path="/" element={<Home/>} />
